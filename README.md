@@ -1,50 +1,47 @@
 # Paris Airbnb Listings Analysis
 
 ## Project Overview
-Analyzed a large-scale Airbnb listings dataset with a focus on Paris 
-using Python to uncover pricing trends, neighbourhood demand, 
-accommodation insights, and host growth patterns over time across 
-270,000+ records.
+Analyzed 270,000+ Airbnb listings with a focus on Paris using 
+Python to uncover pricing trends, neighbourhood demand, 
+accommodation insights, and host growth patterns over time.
 
 ## Objectives
-1. Profile and QA the data — Validate data quality, handle encoding 
-   issues, convert data types, and identify missing values
-2. Prepare for Visualization — Filter, aggregate, and reshape the 
-   data for meaningful analysis
+1. Profile and QA the Data — Validate data quality, handle 
+   encoding issues, convert data types, and identify missing values
+2. Prepare for Visualization — Filter, aggregate, and reshape 
+   data for meaningful analysis using Pandas
 3. Visualize and Summarize Findings — Create charts to communicate 
-   insights around pricing, accommodation, and host trends over time
+   pricing, accommodation, and host trends over time
 
 ## Skills Demonstrated
-- Data cleaning and encoding handling using Pandas read_csv
-- DateTime conversion and time series resampling using resample
+- Data cleaning, encoding handling, and QA using Pandas
+- DateTime conversion and time series resampling
 - Data filtering and aggregation using groupby, agg, and query
-- Multi-condition filtering and column selection using loc
+- Column selection and value updates using loc
 - Data visualization using Matplotlib and Seaborn
-- Exploratory data analysis and QA on large scale datasets
 - Dual axis chart creation for comparative time series analysis
+- Exploratory data analysis on large scale datasets
 
 ## Key Findings
-- Paris Airbnb prices were highest in the platform's early years 
-  when host supply was limited, averaging significantly higher 
-  rates than in later years
-- As host volume increased throughout the years, increased market 
-  competition drove average nightly prices down
+- Paris Airbnb prices were highest in early years when host 
+  supply was limited, reflecting a low supply high demand market
+- Increased host volume over the years drove average nightly 
+  prices down due to greater market competition
 - Both new host registrations and average prices declined sharply 
-  during the COVID-19 period, consistent with the broader impact 
-  of the pandemic on the short term rental market
-- Central Paris neighbourhoods command the highest average nightly 
-  prices among all neighbourhoods analyzed
-- Larger accommodations consistently correlate with higher nightly 
-  rates, suggesting group travel is a strong market segment
+  during COVID-19, consistent with pandemic impacts on short 
+  term rental markets
+- Central Paris neighbourhoods command the highest average 
+  nightly prices among all areas analyzed
+- Larger accommodations consistently correlate with higher 
+  nightly rates, suggesting group travel is a strong market segment
 
 ## Recommendations
-- Hosts looking to maximize revenue should target central Paris 
-  neighbourhoods which command the highest average nightly prices
-- Larger accommodations consistently yield higher nightly rates, 
-  suggesting group travel is a strong and profitable market opportunity
-- New hosts entering the market post-COVID face less competition 
-  as host growth has stabilized since its 2010 peak, presenting 
-  a favorable entry opportunity
+- Hosts targeting maximum revenue should focus on central Paris 
+  neighbourhoods which command the highest nightly prices
+- Larger accommodations yield higher nightly rates, making group 
+  travel a strong and profitable market opportunity
+- New hosts entering post-COVID face less competition as host 
+  growth has stabilized since its 2010 peak
 
 ## Tools & Technologies
 - Python
@@ -54,7 +51,7 @@ accommodation insights, and host growth patterns over time across
 - Jupyter Notebook
 
 ## Data Source
-Dataset sourced from Maven Analytics. Download and extract the zip 
-file, then place the Listings.csv file in the same folder as the 
+Dataset sourced from Maven Analytics. Download and extract the 
+zip file, then place Listings.csv in the same folder as the 
 notebook before running.
 [Maven Analytics](https://maven-datasets.s3.amazonaws.com/Airbnb/Airbnb+Data.zip)
