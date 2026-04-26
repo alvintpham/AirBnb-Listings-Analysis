@@ -54,4 +54,4 @@ accommodation insights, and host growth patterns over time.
 Dataset sourced from Maven Analytics. Download and extract the 
 zip file, then place Listings.csv in the same folder as the 
 notebook before running.
-[Airbnb Data](https://maven-datasets.s3.amazonaws.com/Airbnb/Airbnb+Data.zip)
+[Airbnb Listings & Reviews](https://maven-datasets.s3.amazonaws.com/Airbnb/Airbnb+Data.zip)
